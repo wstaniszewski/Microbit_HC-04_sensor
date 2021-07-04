@@ -2,6 +2,8 @@ let aver = 0
 let distance = 0
 basic.forever(function () {
     aver = 0
+    // x times must equal  division after the loop For
+    // 
     for (let index = 0; index < 1; index++) {
         distance = sonar.ping(
         DigitalPin.P0,
